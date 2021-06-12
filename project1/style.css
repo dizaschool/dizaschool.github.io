@@ -1,0 +1,290 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(green, red, green);
+  font-style: italic;
+  color: #494650;
+  animation: fon1 60s infinite;
+}
+
+@keyframes fon {
+  from {background-position: -100px 0;}
+  to {background-position: 100px 50px;}
+}
+
+#container {
+  width: 90%;
+  margin: 20px auto;
+}
+
+header {
+  background: rgba(255, 255, 255, 0.6) url(https://upload.wikimedia.org/wikipedia/commons/3/3c/Coat_of_Arms_of_Kryvyy_Rih.png) no-repeat;
+  background-size: 200px;
+  background-position: 30px;
+  height: 229px;
+  padding: 15px;
+  border-radius: 0px;
+  box-shadow: 0 0 20px 10px #C0D463;
+}
+
+h1 {
+  text-shadow: 0 0 5px #5E7D66;
+  font-size: 65px;
+}
+
+#head {
+  margin-top: 30px;
+  margin-left: 23%;
+  padding-left: 56px;
+}
+
+nav {
+  background: #668d689f;
+  height: 60px;
+  padding-top: 10px;
+  margin: 1% 0;
+  border-radius: 40px 10px;
+  box-shadow: 0 0 20px 1px #3C3348;
+  text-align: center;
+}
+
+a {
+  text-decoration: underline;
+  display: block;
+  color: #A86540;
+}
+
+nav li {
+  display: inline-block;
+  background: rgb(255, 255, 255);
+  width: 10%;
+  height: 40px;
+  line-height: 40px;
+  border-top-left-radius: 150px 30px;
+    border-bottom-right-radius: 150px 30px;
+  transition: 1s;
+}
+
+nav li:hover {
+  display: inline-block;
+  background: #EEE8AA;
+  transform: translateY(6px);
+  transition: 1s;
+  box-shadow: 0 0 10px 1px white;
+}
+
+nav a:hover {
+  color: black;
+}
+
+aside {
+  background: #C9D1B7;
+  height: 500px;
+  padding: 20px;
+  width: 25%;
+  float: left;
+  border-radius: 1px;
+  box-shadow: inset 0 0 20px 1px #404040;
+  text-align: center;
+}
+
+aside li {
+  background: ;
+  height: 40px;
+  line-height: 40px;
+   background-color: #E8CBB1;
+   
+  border: 1px solid #855C5A;
+  border-radius: 15px 100px 15px 100px;
+  transition: 1s;
+  margin-top: 10px;
+  list-style: none;
+}
+
+aside li:hover {
+  background: white;
+  transform: translateX(6px);
+  transition: 1s;
+  box-shadow: 0 0 20px 1px #fdfdfb;
+}
+
+aside a:hover {
+  color: #c5764a;
+}
+
+aside a {
+  color: #374F51;
+}
+
+main {
+  background: rgba(255, 255, 255, 0.801);
+  padding: 40px;
+  margin-left: 26%;
+  border-radius: 6px;
+  box-shadow: 0 0 19px 2px #3f6448;
+}
+
+footer {
+  background: #3f64489a;
+  padding: 20px;
+  margin: 1% 0;
+  border-radius: 9px;
+  box-shadow:  0 0 20px 1px #668d689f;
+  text-align: center;
+  background: #286128;
+   color: #D5D5D5;
+}
+
+p {
+  margin-top: 20px;
+  text-align: justify;
+}
+
+main img {
+  display: block;
+  margin: 50px auto;
+}
+
+#link {
+  display: flex;
+  justify-content: space-between;
+  background: #D1FF80;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: inset 0 0 1px 10px #F6FFE6;
+  text-align: center;
+  margin-top: 1%;
+}
+
+#link img {
+  opacity: 0.7;
+}
+
+#link img:hover {
+  opacity: 1;
+}
+
+img {
+  transition: 1s;
+}
+
+img:hover {
+  transform: scale(1.2);
+  transition: 1s;
+}
+
+#link figcaption {
+  background: rgb(255, 255, 255);
+  color: black;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 4px; 
+
+}
+
+footer img {
+  width: 50px;
+}
+
+.top {
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+}
+
+h2 {
+  color: #3f6448;
+  border-radius: 1px;
+  border: thick double #c5764a;
+  text-align: center;
+  padding: 15px;
+}
+
+#cosial {
+  float: right;
+}
+
+#cosial a {
+  display: inline-block;
+}
+
+#cosial a:hover {
+  color: #3f6448;
+}
+
+.left {
+  width: 300px;
+  float: left;
+  margin-right: 30px;
+}
+
+.right {
+  width: 300px;
+  float: right;
+  margin-left: 30px;
+}
+#video {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#images {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+#images figure {
+  width: 40%;
+  margin: 10px;
+  transition: 1s;
+  border: 10px solid #D5D5D5;
+  box-shadow: 5px 5px 15px #000;
+}
+
+#images figure:hover {
+  transform: scale(1.3);
+  transition: 1s;
+}
+
+#images figure img {
+  width: 100%;
+}
+
+#images figcaption {
+  background: #fff;
+  color: rgb(4, 41, 15);
+  padding: 15px;
+  margin-top: -5px;
+}
+
+#images img:hover {
+  transform: scale(1);
+}
+
+
+#images img {
+  margin: 0;
+}
+
+details {
+  text-align: center;
+  margin: 1% auto;
+  width: 70%;
+}
+
+summary {
+  background: #9FEE5E;
+  height: 40px;
+  line-height: 40px;
+  background-color: #CCCC99;
+  border: 1px solid black;
+  border-radius: 14px;
+ 
+
+}
